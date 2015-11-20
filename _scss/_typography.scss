@@ -1,0 +1,19 @@
+/******************************
+Typography Boilerplate
+******************************/
+html { font: 100%/1.5 $font-family; }
+body {text-rendering: optimizeLegibility;}
+body, input, button { -webkit-font-smoothing: antialiased; }
+.scope {
+  h1 { font-size: 2.9em; @include font-family; font-weight: 900; }
+  h2 { font-size: 1.5em; @include font-family; font-weight: 700; }
+  h3 { font-size: 1.25em; @include font-family; font-weight: 900; }
+  h4 { font-size: 1.125em; @include font-family; font-weight: 400; }
+  h5 { font-size: 0.875em; @include font-family; font-weight: 400; }
+  h6 { font-size: 0.75em; @include font-family; font-weight: 300; }
+  p {font-size: 1em;font-weight: 400;line-height: 1.5;margin: 0 0 1em;@include font-family;}
+  a, a:visited, a:hover {text-decoration: none; @include font-family;}
+  strong { font-weight: 700; }
+  em { font-style: italic; }
+  .uppercase { text-transform: uppercase; }
+}
