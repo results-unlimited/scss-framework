@@ -64,17 +64,17 @@ GRID
 
   //GRID RULES
 
-  .col-1-1   { @include col( 12 ) }
-  .col-1-2   { @include col( 6 ) }
-  .col-1-3   { @include col( 4 ) }
-  .col-2-3   { @include col( 8 ) }
-  .col-1-4   { @include col( 3 ) }
+  // .col-1-1   { @include col( 12 ) }
+  // .col-1-2   { @include col( 6 ) }
+  // .col-1-3   { @include col( 4 ) }
+  // .col-2-3   { @include col( 8 ) }
+  // .col-1-4   { @include col( 3 ) }
   // .col-3-4   { @include col( 9 ) }
-  .col-1-5   { @include col( 2.4 ) }
-  .col-2-5   { @include col( 4.8 ) }
+  // .col-1-5   { @include col( 2.4 ) }
+  // .col-2-5   { @include col( 4.8 ) }
   // .col-3-5   { @include col( 7.2 ) }
   // .col-4-5   { @include col( 9.6 ) }
-  .col-1-6   { @include col( 2 ) }
+  // .col-1-6   { @include col( 2 ) }
   // .col-5-6   { @include col( 10 ) }
   // .col-1-7   { @include col( ( 1 / 7 ) * 12 ) }
   // .col-2-7   { @include col( ( 2 / 7 ) * 12 ) }
@@ -161,8 +161,8 @@ GRID
   }
 
   @media ( max-width: $br-md ) {
-      .md-col-1-1 { @include col( 12 ) }
-      .md-col-1-2 { @include col( 6 ) }
+      // .md-col-1-1 { @include col( 12 ) }
+      // .md-col-1-2 { @include col( 6 ) }
       // .md-col-1-3 { @include col( 4 ) }
       // .md-col-2-3 { @include col( 8 ) }
       // .md-col-1-4 { @include col( 3 ) }
@@ -175,7 +175,7 @@ GRID
       // .md-col-5-6 { @include col( 10 ) }
   }
   @media ( max-width: $br-sm ) {
-      .sm-col-1-1 { @include col( 12 ) }
+      // .sm-col-1-1 { @include col( 12 ) }
       // .sm-col-1-2 { @include col( 6 ) }
       // .sm-col-1-3 { @include col( 4 ) }
       // .sm-col-2-3 { @include col( 8 ) }
@@ -199,7 +199,7 @@ GRID
   // .offset-2-5   { @include offset( 4.8 ) }
   // .offset-3-5   { @include offset( 7.2 ) }
   // .offset-4-5   { @include offset( 9.6 ) }
-  .offset-1-6   { @include offset( 2 ) }
+  // .offset-1-6   { @include offset( 2 ) }
   // .offset-5-6   { @include offset( 10 ) }
   // .offset-1-7   { @include offset( ( 1 / 7 ) * 12 ) }
   // .offset-2-7   { @include offset( ( 2 / 7 ) * 12 ) }

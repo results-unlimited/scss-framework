@@ -2,8 +2,6 @@
 Typography Boilerplate
 ******************************/
 html { font: 100%/1.5 $font-family; }
-body {text-rendering: optimizeLegibility;}
-body, input, button { -webkit-font-smoothing: antialiased; }
 .scope {
   h1 { font-size: 2.9em; @include font-family; font-weight: 900; }
   h2 { font-size: 1.5em; @include font-family; font-weight: 700; }
